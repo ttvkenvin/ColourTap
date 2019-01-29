@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D497AF81B5A9C7400266A9C /* GKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D497AF71B5A9C7400266A9C /* GKButtonNode.m */; };
+		0D5924D51B55F7E400AF9E77 /* RepTapGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5924D41B55F7E400AF9E77 /* RepTapGame.m */; };
+		0D5924D61B55F7E400AF9E77 /* RepTapGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5924D41B55F7E400AF9E77 /* RepTapGame.m */; };
+		0D5A07A81B606B0500D75E6A /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D5A07A71B606B0500D75E6A /* correct.wav */; };
+		0D5A07AA1B606E8300D75E6A /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D5A07A91B606E8300D75E6A /* incorrect.wav */; };
+		0D5A07C41B65BE8E00D75E6A /* SirUserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07C31B65BE8E00D75E6A /* SirUserSettings.m */; };
+		0D5A07C51B65BE8E00D75E6A /* SirUserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07C31B65BE8E00D75E6A /* SirUserSettings.m */; };
+		0D5A07CA1B68259B00D75E6A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A07C91B68259B00D75E6A /* GameKit.framework */; };
+		0D5A07CD1B683F7A00D75E6A /* LiGameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07CC1B683F7A00D75E6A /* LiGameCenterManager.m */; };
+		0D5A07D21B6872E200D75E6A /* CLScoreboardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07D11B6872E200D75E6A /* CLScoreboardNode.m */; };
+		0D5A07D51B69B34300D75E6A /* PteConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07D41B69B34300D75E6A /* PteConstants.m */; };
+		0D5A07D81B6BB43A00D75E6A /* MenAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07D71B6BB43A00D75E6A /* MenAudio.m */; };
+		0D5A07D91B6BB43A00D75E6A /* MenAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07D71B6BB43A00D75E6A /* MenAudio.m */; };
+		0D5A07DC1B6C0F6300D75E6A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A07DA1B6C0F4E00D75E6A /* iAd.framework */; };
+		0D5A07E31B6D330400D75E6A /* RTTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07E21B6D330400D75E6A /* RTTexture.m */; };
+		0D5A07E41B6D330400D75E6A /* RTTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07E21B6D330400D75E6A /* RTTexture.m */; };
+		0D5A07E81B6EBE8F00D75E6A /* DuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07E71B6EBE8F00D75E6A /* DuSettingsViewController.m */; };
+		0D5A07F31B6F0AC000D75E6A /* TapAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07EE1B6F0AC000D75E6A /* TapAlertController.m */; };
+		0D5A07F41B6F0AC000D75E6A /* TprGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07F01B6F0AC000D75E6A /* TprGameOverViewController.m */; };
+		0D5A07F51B6F0AC000D75E6A /* PopMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07F21B6F0AC000D75E6A /* PopMainViewController.m */; };
+		0D5A07F81B6F0B0600D75E6A /* UtyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A07F71B6F0B0600D75E6A /* UtyColor.m */; };
+		0D888EA31B6FB03500322191 /* ProGameDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D888EA21B6FB03500322191 /* ProGameDifficulty.m */; };
+		0D888EA41B6FB03500322191 /* ProGameDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D888EA21B6FB03500322191 /* ProGameDifficulty.m */; };
+		0DC974721B4F0284008F5ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC974711B4F0284008F5ADE /* main.m */; };
+		0DC974751B4F0284008F5ADE /* SelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC974741B4F0284008F5ADE /* SelAppDelegate.m */; };
+		0DC9747B1B4F0284008F5ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC974791B4F0284008F5ADE /* Main.storyboard */; };
+		0DC9747D1B4F0284008F5ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9747C1B4F0284008F5ADE /* Images.xcassets */; };
+		0DC974801B4F0284008F5ADE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9747E1B4F0284008F5ADE /* LaunchScreen.xib */; };
+		0DC9748C1B4F0284008F5ADE /* ColorTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9748B1B4F0284008F5ADE /* ColorTapTests.m */; };
+		0DC974961B4F02A1008F5ADE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC974951B4F02A1008F5ADE /* SpriteKit.framework */; };
+		0DC9749A1B4F0370008F5ADE /* TMGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC974991B4F0370008F5ADE /* TMGameScene.m */; };
+		0DC9749E1B4F045D008F5ADE /* TolUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9749D1B4F045D008F5ADE /* TolUtilities.m */; };
+		0DC974A21B4F18CC008F5ADE /* NdBackgroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC974A11B4F18CC008F5ADE /* NdBackgroundNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC974861B4F0284008F5ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC974641B4F0284008F5ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC9746B1B4F0284008F5ADE;
+			remoteInfo = ColorTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D497AF61B5A9C7400266A9C /* GKButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKButtonNode.h; path = Nodes/GKButtonNode.h; sourceTree = "<group>"; };
+		0D497AF71B5A9C7400266A9C /* GKButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKButtonNode.m; path = Nodes/GKButtonNode.m; sourceTree = "<group>"; };
+		0D5924D31B55F7E400AF9E77 /* RepTapGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepTapGame.h; path = Model/RepTapGame.h; sourceTree = "<group>"; };
+		0D5924D41B55F7E400AF9E77 /* RepTapGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepTapGame.m; path = Model/RepTapGame.m; sourceTree = "<group>"; };
+		0D5A07A71B606B0500D75E6A /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = Sounds/correct.wav; sourceTree = "<group>"; };
+		0D5A07A91B606E8300D75E6A /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incorrect.wav; path = Sounds/incorrect.wav; sourceTree = "<group>"; };
+		0D5A07C21B65BE8E00D75E6A /* SirUserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SirUserSettings.h; path = Model/SirUserSettings.h; sourceTree = "<group>"; };
+		0D5A07C31B65BE8E00D75E6A /* SirUserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SirUserSettings.m; path = Model/SirUserSettings.m; sourceTree = "<group>"; };
+		0D5A07C91B68259B00D75E6A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		0D5A07CB1B683F7A00D75E6A /* LiGameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiGameCenterManager.h; sourceTree = "<group>"; };
+		0D5A07CC1B683F7A00D75E6A /* LiGameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiGameCenterManager.m; sourceTree = "<group>"; };
+		0D5A07D01B6872E200D75E6A /* CLScoreboardNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLScoreboardNode.h; path = Nodes/CLScoreboardNode.h; sourceTree = "<group>"; };
+		0D5A07D11B6872E200D75E6A /* CLScoreboardNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLScoreboardNode.m; path = Nodes/CLScoreboardNode.m; sourceTree = "<group>"; };
+		0D5A07D31B69B2FA00D75E6A /* PteConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PteConstants.h; path = Utilities/PteConstants.h; sourceTree = "<group>"; };
+		0D5A07D41B69B34300D75E6A /* PteConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PteConstants.m; path = Utilities/PteConstants.m; sourceTree = "<group>"; };
+		0D5A07D61B6BB43A00D75E6A /* MenAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenAudio.h; path = Utilities/MenAudio.h; sourceTree = "<group>"; };
+		0D5A07D71B6BB43A00D75E6A /* MenAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenAudio.m; path = Utilities/MenAudio.m; sourceTree = "<group>"; };
+		0D5A07DA1B6C0F4E00D75E6A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		0D5A07E11B6D330400D75E6A /* RTTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTexture.h; path = Utilities/RTTexture.h; sourceTree = "<group>"; };
+		0D5A07E21B6D330400D75E6A /* RTTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTTexture.m; path = Utilities/RTTexture.m; sourceTree = "<group>"; };
+		0D5A07E61B6EBE8F00D75E6A /* DuSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuSettingsViewController.h; path = ViewControllers/DuSettingsViewController.h; sourceTree = "<group>"; };
+		0D5A07E71B6EBE8F00D75E6A /* DuSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DuSettingsViewController.m; path = ViewControllers/DuSettingsViewController.m; sourceTree = "<group>"; };
+		0D5A07ED1B6F0AC000D75E6A /* TapAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapAlertController.h; path = ViewControllers/TapAlertController.h; sourceTree = "<group>"; };
+		0D5A07EE1B6F0AC000D75E6A /* TapAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapAlertController.m; path = ViewControllers/TapAlertController.m; sourceTree = "<group>"; };
+		0D5A07EF1B6F0AC000D75E6A /* TprGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TprGameOverViewController.h; path = ViewControllers/TprGameOverViewController.h; sourceTree = "<group>"; };
+		0D5A07F01B6F0AC000D75E6A /* TprGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TprGameOverViewController.m; path = ViewControllers/TprGameOverViewController.m; sourceTree = "<group>"; };
+		0D5A07F11B6F0AC000D75E6A /* PopMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopMainViewController.h; path = ViewControllers/PopMainViewController.h; sourceTree = "<group>"; };
+		0D5A07F21B6F0AC000D75E6A /* PopMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopMainViewController.m; path = ViewControllers/PopMainViewController.m; sourceTree = "<group>"; };
+		0D5A07F61B6F0B0600D75E6A /* UtyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtyColor.h; path = Utilities/UtyColor.h; sourceTree = "<group>"; };
+		0D5A07F71B6F0B0600D75E6A /* UtyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtyColor.m; path = Utilities/UtyColor.m; sourceTree = "<group>"; };
+		0D888EA11B6FB03500322191 /* ProGameDifficulty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProGameDifficulty.h; path = Model/ProGameDifficulty.h; sourceTree = "<group>"; };
+		0D888EA21B6FB03500322191 /* ProGameDifficulty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProGameDifficulty.m; path = Model/ProGameDifficulty.m; sourceTree = "<group>"; };
+		0DC9746C1B4F0284008F5ADE /* TapThatColour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapThatColour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC974701B4F0284008F5ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC974711B4F0284008F5ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DC974731B4F0284008F5ADE /* SelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelAppDelegate.h; sourceTree = "<group>"; };
+		0DC974741B4F0284008F5ADE /* SelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelAppDelegate.m; sourceTree = "<group>"; };
+		0DC9747A1B4F0284008F5ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC9747C1B4F0284008F5ADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DC9747F1B4F0284008F5ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0DC974851B4F0284008F5ADE /* TapThatColourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapThatColourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC9748A1B4F0284008F5ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC9748B1B4F0284008F5ADE /* ColorTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTapTests.m; sourceTree = "<group>"; };
+		0DC974951B4F02A1008F5ADE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0DC974981B4F0370008F5ADE /* TMGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMGameScene.h; path = Scenes/TMGameScene.h; sourceTree = "<group>"; };
+		0DC974991B4F0370008F5ADE /* TMGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMGameScene.m; path = Scenes/TMGameScene.m; sourceTree = "<group>"; };
+		0DC9749C1B4F045D008F5ADE /* TolUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TolUtilities.h; path = Utilities/TolUtilities.h; sourceTree = "<group>"; };
+		0DC9749D1B4F045D008F5ADE /* TolUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TolUtilities.m; path = Utilities/TolUtilities.m; sourceTree = "<group>"; };
+		0DC974A01B4F18CC008F5ADE /* NdBackgroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NdBackgroundNode.h; path = Nodes/NdBackgroundNode.h; sourceTree = "<group>"; };
+		0DC974A11B4F18CC008F5ADE /* NdBackgroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NdBackgroundNode.m; path = Nodes/NdBackgroundNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC974691B4F0284008F5ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5A07DC1B6C0F6300D75E6A /* iAd.framework in Frameworks */,
+				0DC974961B4F02A1008F5ADE /* SpriteKit.framework in Frameworks */,
+				0D5A07CA1B68259B00D75E6A /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC974821B4F0284008F5ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5924D21B55F7A000AF9E77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D5924D31B55F7E400AF9E77 /* RepTapGame.h */,
+				0D5924D41B55F7E400AF9E77 /* RepTapGame.m */,
+				0D5A07C21B65BE8E00D75E6A /* SirUserSettings.h */,
+				0D5A07C31B65BE8E00D75E6A /* SirUserSettings.m */,
+				0D888EA11B6FB03500322191 /* ProGameDifficulty.h */,
+				0D888EA21B6FB03500322191 /* ProGameDifficulty.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0D5A07A21B6064CB00D75E6A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A07A91B606E8300D75E6A /* incorrect.wav */,
+				0D5A07A71B606B0500D75E6A /* correct.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		0D5A07E51B6EBE6100D75E6A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A07ED1B6F0AC000D75E6A /* TapAlertController.h */,
+				0D5A07EE1B6F0AC000D75E6A /* TapAlertController.m */,
+				0D5A07EF1B6F0AC000D75E6A /* TprGameOverViewController.h */,
+				0D5A07F01B6F0AC000D75E6A /* TprGameOverViewController.m */,
+				0D5A07F11B6F0AC000D75E6A /* PopMainViewController.h */,
+				0D5A07F21B6F0AC000D75E6A /* PopMainViewController.m */,
+				0D5A07E61B6EBE8F00D75E6A /* DuSettingsViewController.h */,
+				0D5A07E71B6EBE8F00D75E6A /* DuSettingsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0DC974631B4F0284008F5ADE = {
+			isa = PBXGroup;
+			children = (
+				0D5A07DA1B6C0F4E00D75E6A /* iAd.framework */,
+				0D5A07C91B68259B00D75E6A /* GameKit.framework */,
+				0DC974951B4F02A1008F5ADE /* SpriteKit.framework */,
+				0DC9746E1B4F0284008F5ADE /* TapThatColour */,
+				0DC974881B4F0284008F5ADE /* TapThatColourTests */,
+				0DC9746D1B4F0284008F5ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC9746D1B4F0284008F5ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9746C1B4F0284008F5ADE /* TapThatColour.app */,
+				0DC974851B4F0284008F5ADE /* TapThatColourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC9746E1B4F0284008F5ADE /* TapThatColour */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A07E51B6EBE6100D75E6A /* ViewControllers */,
+				0D5A07A21B6064CB00D75E6A /* Sounds */,
+				0D5924D21B55F7A000AF9E77 /* Model */,
+				0DC9749F1B4F189D008F5ADE /* Nodes */,
+				0DC9749B1B4F0445008F5ADE /* Utilities */,
+				0DC974971B4F0330008F5ADE /* Scenes */,
+				0DC974731B4F0284008F5ADE /* SelAppDelegate.h */,
+				0DC974741B4F0284008F5ADE /* SelAppDelegate.m */,
+				0DC974791B4F0284008F5ADE /* Main.storyboard */,
+				0DC9747E1B4F0284008F5ADE /* LaunchScreen.xib */,
+				0DC9747C1B4F0284008F5ADE /* Images.xcassets */,
+				0DC9746F1B4F0284008F5ADE /* Supporting Files */,
+			);
+			path = TapThatColour;
+			sourceTree = "<group>";
+		};
+		0DC9746F1B4F0284008F5ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC974701B4F0284008F5ADE /* Info.plist */,
+				0DC974711B4F0284008F5ADE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DC974881B4F0284008F5ADE /* TapThatColourTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9748B1B4F0284008F5ADE /* ColorTapTests.m */,
+				0DC974891B4F0284008F5ADE /* Supporting Files */,
+			);
+			path = TapThatColourTests;
+			sourceTree = "<group>";
+		};
+		0DC974891B4F0284008F5ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9748A1B4F0284008F5ADE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DC974971B4F0330008F5ADE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0DC974981B4F0370008F5ADE /* TMGameScene.h */,
+				0DC974991B4F0370008F5ADE /* TMGameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0DC9749B1B4F0445008F5ADE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A07F61B6F0B0600D75E6A /* UtyColor.h */,
+				0D5A07F71B6F0B0600D75E6A /* UtyColor.m */,
+				0DC9749C1B4F045D008F5ADE /* TolUtilities.h */,
+				0DC9749D1B4F045D008F5ADE /* TolUtilities.m */,
+				0D5A07CB1B683F7A00D75E6A /* LiGameCenterManager.h */,
+				0D5A07CC1B683F7A00D75E6A /* LiGameCenterManager.m */,
+				0D5A07D31B69B2FA00D75E6A /* PteConstants.h */,
+				0D5A07D41B69B34300D75E6A /* PteConstants.m */,
+				0D5A07D61B6BB43A00D75E6A /* MenAudio.h */,
+				0D5A07D71B6BB43A00D75E6A /* MenAudio.m */,
+				0D5A07E11B6D330400D75E6A /* RTTexture.h */,
+				0D5A07E21B6D330400D75E6A /* RTTexture.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0DC9749F1B4F189D008F5ADE /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				0DC974A01B4F18CC008F5ADE /* NdBackgroundNode.h */,
+				0DC974A11B4F18CC008F5ADE /* NdBackgroundNode.m */,
+				0D497AF61B5A9C7400266A9C /* GKButtonNode.h */,
+				0D497AF71B5A9C7400266A9C /* GKButtonNode.m */,
+				0D5A07D01B6872E200D75E6A /* CLScoreboardNode.h */,
+				0D5A07D11B6872E200D75E6A /* CLScoreboardNode.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC9746B1B4F0284008F5ADE /* TapThatColour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC9748F1B4F0284008F5ADE /* Build configuration list for PBXNativeTarget "TapThatColour" */;
+			buildPhases = (
+				0DC974681B4F0284008F5ADE /* Sources */,
+				0DC974691B4F0284008F5ADE /* Frameworks */,
+				0DC9746A1B4F0284008F5ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapThatColour;
+			productName = ColorTap;
+			productReference = 0DC9746C1B4F0284008F5ADE /* TapThatColour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DC974841B4F0284008F5ADE /* TapThatColourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC974921B4F0284008F5ADE /* Build configuration list for PBXNativeTarget "TapThatColourTests" */;
+			buildPhases = (
+				0DC974811B4F0284008F5ADE /* Sources */,
+				0DC974821B4F0284008F5ADE /* Frameworks */,
+				0DC974831B4F0284008F5ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC974871B4F0284008F5ADE /* PBXTargetDependency */,
+			);
+			name = TapThatColourTests;
+			productName = ColorTapTests;
+			productReference = 0DC974851B4F0284008F5ADE /* TapThatColourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC974641B4F0284008F5ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cohen Adair";
+				TargetAttributes = {
+					0DC9746B1B4F0284008F5ADE = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JZMB8NFBF2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					0DC974841B4F0284008F5ADE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0DC9746B1B4F0284008F5ADE;
+					};
+				};
+			};
+			buildConfigurationList = 0DC974671B4F0284008F5ADE /* Build configuration list for PBXProject "TapThatColour" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC974631B4F0284008F5ADE;
+			productRefGroup = 0DC9746D1B4F0284008F5ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC9746B1B4F0284008F5ADE /* TapThatColour */,
+				0DC974841B4F0284008F5ADE /* TapThatColourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC9746A1B4F0284008F5ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9747B1B4F0284008F5ADE /* Main.storyboard in Resources */,
+				0D5A07AA1B606E8300D75E6A /* incorrect.wav in Resources */,
+				0D5A07A81B606B0500D75E6A /* correct.wav in Resources */,
+				0DC974801B4F0284008F5ADE /* LaunchScreen.xib in Resources */,
+				0DC9747D1B4F0284008F5ADE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC974831B4F0284008F5ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC974681B4F0284008F5ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5A07D51B69B34300D75E6A /* PteConstants.m in Sources */,
+				0D5A07CD1B683F7A00D75E6A /* LiGameCenterManager.m in Sources */,
+				0DC974751B4F0284008F5ADE /* SelAppDelegate.m in Sources */,
+				0D5A07F81B6F0B0600D75E6A /* UtyColor.m in Sources */,
+				0DC9749A1B4F0370008F5ADE /* TMGameScene.m in Sources */,
+				0DC974A21B4F18CC008F5ADE /* NdBackgroundNode.m in Sources */,
+				0D5924D51B55F7E400AF9E77 /* RepTapGame.m in Sources */,
+				0D888EA31B6FB03500322191 /* ProGameDifficulty.m in Sources */,
+				0D5A07E81B6EBE8F00D75E6A /* DuSettingsViewController.m in Sources */,
+				0DC9749E1B4F045D008F5ADE /* TolUtilities.m in Sources */,
+				0DC974721B4F0284008F5ADE /* main.m in Sources */,
+				0D5A07F41B6F0AC000D75E6A /* TprGameOverViewController.m in Sources */,
+				0D5A07F51B6F0AC000D75E6A /* PopMainViewController.m in Sources */,
+				0D5A07E31B6D330400D75E6A /* RTTexture.m in Sources */,
+				0D497AF81B5A9C7400266A9C /* GKButtonNode.m in Sources */,
+				0D5A07D81B6BB43A00D75E6A /* MenAudio.m in Sources */,
+				0D5A07C41B65BE8E00D75E6A /* SirUserSettings.m in Sources */,
+				0D5A07F31B6F0AC000D75E6A /* TapAlertController.m in Sources */,
+				0D5A07D21B6872E200D75E6A /* CLScoreboardNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC974811B4F0284008F5ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5A07E41B6D330400D75E6A /* RTTexture.m in Sources */,
+				0DC9748C1B4F0284008F5ADE /* ColorTapTests.m in Sources */,
+				0D5A07D91B6BB43A00D75E6A /* MenAudio.m in Sources */,
+				0D5924D61B55F7E400AF9E77 /* RepTapGame.m in Sources */,
+				0D888EA41B6FB03500322191 /* ProGameDifficulty.m in Sources */,
+				0D5A07C51B65BE8E00D75E6A /* SirUserSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC974871B4F0284008F5ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC9746B1B4F0284008F5ADE /* TapThatColour */;
+			targetProxy = 0DC974861B4F0284008F5ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DC974791B4F0284008F5ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC9747A1B4F0284008F5ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DC9747E1B4F0284008F5ADE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC9747F1B4F0284008F5ADE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC9748D1B4F0284008F5ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DC9748E1B4F0284008F5ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC974901B4F0284008F5ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZMB8NFBF2;
+				INFOPLIST_FILE = TapThatColour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cny.cohenadair.colortap;
+				PRODUCT_NAME = TapThatColour;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0DC974911B4F0284008F5ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZMB8NFBF2;
+				INFOPLIST_FILE = TapThatColour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cny.cohenadair.colortap;
+				PRODUCT_NAME = TapThatColour;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0DC974931B4F0284008F5ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapThatColour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cohenadair.colortap;
+				PRODUCT_NAME = TapThatColourTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapThatColour.app/TapThatColour";
+			};
+			name = Debug;
+		};
+		0DC974941B4F0284008F5ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TapThatColour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cohenadair.colortap;
+				PRODUCT_NAME = TapThatColourTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapThatColour.app/TapThatColour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC974671B4F0284008F5ADE /* Build configuration list for PBXProject "TapThatColour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC9748D1B4F0284008F5ADE /* Debug */,
+				0DC9748E1B4F0284008F5ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC9748F1B4F0284008F5ADE /* Build configuration list for PBXNativeTarget "TapThatColour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC974901B4F0284008F5ADE /* Debug */,
+				0DC974911B4F0284008F5ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC974921B4F0284008F5ADE /* Build configuration list for PBXNativeTarget "TapThatColourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC974931B4F0284008F5ADE /* Debug */,
+				0DC974941B4F0284008F5ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DC974641B4F0284008F5ADE /* Project object */;
+}
