@@ -1,5 +1,5 @@
 
-![image]()
+![image](https://github.com/ttvkenvin/ColourTap/blob/master/180.png)
 
 # description
 Tap the correct color as they scroll down the screen. Be careful, though, as the color will change and the speed will increase! Test your coordination and association skills with this fast paced tap game.
